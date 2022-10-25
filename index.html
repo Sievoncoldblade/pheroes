@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Philippine Heroes</title>
+	<link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+</head>
+<body class="font-serif bg-neutral-900 text-gray-300">
+	<nav class="text-center py-5 w-screen mx-0 border-b">
+		<ul class="flex justify-center font-sans">
+			<li class="px-3 border-r text-yellow-600 hover:text-yellow-500">
+				<a href="#" class="nav-link">Home</a>
+			</li>
+			<li class="px-3 border-r hover:text-yellow-500">
+				<a href="heroes.html" class="nav-link">Heroes</a>
+			</li>
+			<li class="px-3 border-r hover:text-yellow-500">
+				<a href="#" class="nav-link">About</a>
+			</li>
+			<li class="px-3 hover:text-yellow-500">
+				<a href="#" class="nav-link">Contact</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="container text-center mx-auto mt-72">
+		<header>
+			<h1 class="title text-7xl text-gray-100 mb-7">Philippine Heroes</h1>
+		</header>
+		<div>
+			<button class="button-hero transition ease-in font-sans py-3 px-5 border rounded-full border-yellow-600 text-yellow-600 hover:scale-110 hover:text-white hover:bg-yellow-600 duration-500"><a href="heroes.html">Get to know them</a></button>
+		</div>
+	</main>
+</body>
+<script>
+	gsap.from(".title", { y: 50, duration: 1, opacity: 0 })
+</script>
+</html>
