@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>About Us</title>
+         <!-- <link rel = "stylesheet" type = "text/css" href = "./about.css"> -->
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+     </head>
+
+     <body class="font-serif bg-neutral-900 text-gray-300">
+
+         <!-----NavigationBar---->
+        <header>
+          <nav class="text-center py-5 w-screen mx-0 border-b">
+            <ul class="flex justify-center font-sans">
+              <li class="px-3 border-r  hover:text-yellow-500">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="px-3 border-r hover:text-yellow-500">
+                <a href="heroes.html" class="nav-link">Heroes</a>
+              </li>
+              <li class="px-3 border-r text-yellow-600 hover:text-yellow-500">
+                <a href="#" class="nav-link">About</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class = "aboutus">
+            <div class = "aboutus-container">
+                <div class = "aboutus-title">
+                    <h1>About Us</h1>
+                </div>
+                <div class = "aboutus-content">
+                    <p>We're here to give information about selected Philippine national heroes that have had a vast impact on our entire history. In line with this, the emerging interest in history of this generation and the use of technology are combined for easy access to information.</p>
+                </div>
+                    <button onclick = "window.open('https://en.wikipedia.org/wiki/National_hero_of_the_Philippines','_blank')"> Read More </button>
+            </div>
+        </div>
+
+        <div class = "groupmembers">
+            <div class = "groupmembers-container">
+                <div class = "groupmembers-title">
+                        <h1>Group Members</h1>
+                </div>
+                <div class = "groupmembers-sep-container">
+                    <div class = "member">
+                    <img id="img" src = "./assets/profile.png"> <!--image-->
+                    <div class = "name">Chris Jester Buerano</div>
+                    <div class = "about">BSIT 3-1 | Polytechnic Univeristy of the Philippines - Santa Rosa Campus</div>
+                    </div>
+                    <div class = "member">
+                    <img id="img" src = "./assets/profile.png"> <!--image-->
+                    <div class = "name">Justine Castañeda</div>
+                    <div class = "about">BSIT 3-1 | Polytechnic Univeristy of the Philippines - Santa Rosa Campus</div>
+                    </div>
+                    <div class = "member">
+                    <img id="img" src = "./assets/profile.png"> <!--image-->
+                    <div class = "name">Tracia Jean Lampiño</div>
+                    <div class = "about">BSIT 3-1 | Polytechnic Univeristy of the Philippines - Santa Rosa Campus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     </body>
+ </html>

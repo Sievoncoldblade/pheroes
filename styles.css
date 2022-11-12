@@ -51,6 +51,114 @@ html {
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
+.aboutus {
+  width: 100%;
+  min-height: 50vh;
+}
+
+.aboutus-container {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center !important;
+}
+
+.aboutus-container .aboutus-title {
+  font-size: 25px;
+  color:#ca8a04;
+  font-family: Georgia, serif;
+}
+
+.aboutus-container .aboutus-content {
+  width: 90%;
+  margin: auto;
+  color: #f3f4f6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.aboutus-container .aboutus-content p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.aboutus-container button {
+  color: #ca8a04;
+  text-decoration: none;
+  border: 2px solid;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.aboutus-container button:hover {
+  background: #ca8a04;
+  color: #f3f4f6;
+  border: 2px solid #ca8a04;
+}
+
+.groupmembers-container {
+  text-align: center !important;
+}
+
+.groupmembers-container .groupmembers-title {
+  margin-top: 5rem;
+  font-size: 25px;
+  color:#ca8a04;
+  font-family: Georgia, serif;
+}
+
+.groupmembers-container .groupmembers-sep-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 48px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.groupmembers-container .member {
+  margin: 10px;
+  padding: 22px;
+  max-width: 30%;
+  cursor: pointer;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+
+.groupmembers-container .member:hover {
+  background-color: #ca8a04;
+}
+
+.groupmembers-container #img {
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  text-align: center !important;
+  margin-left: 5rem;
+}
+
+.groupmembers-container .name {
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f3f4f6;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: transparent;
+}
+
+.groupmembers-container .about{
+  background-color: transparent;
+  margin: 10px 0;
+  font-weight: lighter;
+  color: #f3f4f6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
 body {
   margin: 0;
   /* 1 */
